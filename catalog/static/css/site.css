@@ -1,0 +1,100 @@
+body {
+	overflow-x: hidden;
+	padding-top: 75px;
+	background-color: #f7fcff;
+}
+
+a {
+	color: #636b46;
+}
+
+p {
+	color: #000;
+	text-align: justify;
+}
+
+.container {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.navbar {
+	height: 75px;
+	background-color: #636b46;
+}
+
+.navbar-brand {
+	font-size: 2em;
+}
+
+.sidebar-wrapper {
+	position: fixed;
+	height: 100%;
+	width: 200px;
+	top: 75px;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+	background: #efd9c1;
+	border-right: 1px solid #eee;
+}
+
+.sidebar-nav {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-weight: 700;
+}
+
+.sidebar-nav>.sidebar-brand {
+	font-size: 1.5em;
+	line-height: 60px;
+}
+
+.sidebar-nav li {
+	text-indent: 20px;
+	line-height: 30px;
+	display: block;
+	text-decoration: none;
+}
+
+.sidebar-add, .highlight-add {
+	color: #cd5360;
+	font-weight: 700;
+}
+
+.content-wrapper {
+	height: 100%;
+ 	margin-left: 200px;
+	padding: 10px 20px;
+	color: #c0b283;
+}
+
+.latest-items {
+	list-style: none;
+}
+
+.highlight-list {
+	list-style: none;
+	padding-left: 0;
+}
+
+.edit-highlight-label {
+	font-weight: 700;
+	vertical-align: bottom;
+}
+
+.edit-highlight-button {
+	padding-right: 0;
+}
+
+.top-buffer {
+	margin-top: 10px;
+}
+
+.contact {
+	color: blue;
+	text-decoration: underline;
+	font-weight: 700;
+}

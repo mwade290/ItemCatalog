@@ -1,0 +1,23 @@
+{% extends "countries.html" %}
+{% block title %}Delete - {{country.name}}{% endblock %}
+
+{% block content %}
+<form action= "{{url_for('deleteCountry', country_name=country.name)}}" method = 'POST'>
+<div class='pane'>
+
+	<div class="row top-buffer">
+		<div class="col-sm-12">
+			<h3>Are you sure you want to delete '{{country.name}}'?</h3>
+		</div>
+	</div>
+	
+	<div class="row top-buffer">
+		<div class="col-sm-12">
+			<a class="btn btn-default float-left" role="button" href="{{url_for('countries')}}">Cancel</a>
+			<input class="btn btn-primary float-left" type="submit" value="Delete">
+		</div>
+	</div>
+
+</div>
+</form>
+{% endblock %} 
